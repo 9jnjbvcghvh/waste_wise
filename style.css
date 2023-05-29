@@ -33,7 +33,7 @@ section{
 
 }
 
-.btn{
+.butn{
     display: inline-block;
     margin-top: 1rem;
     border-radius: 5rem;
@@ -45,7 +45,7 @@ section{
 
 }
 
-.btn:hover{
+.butn:hover{
     background: var(--green);
 }
 
@@ -193,8 +193,14 @@ header .fa-bars{
     left: 0;
     transition: 0.5s;
 }
+
+.layer p{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 1000;
+}
 .layer:hover{
-    background: rgba(226, 0, 0, 0.7);
+    background: rgba(169, 245, 183, 0.7);
 }
 
 .layer h3{
@@ -213,6 +219,67 @@ header .fa-bars{
     opacity: 1;
 }
 
+#gamescategories {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  
+  
+  .game-card {
+    width: 200px;
+    height: 400px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  }
+  
+  .game-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .game-card h3 {
+    margin: 20px 0 10px;
+    font-size: 24px;
+  }
+  
+  .game-card p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  .btn {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #3b8beb;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #185b9e;
+    cursor: pointer;
+  }
 
 
 main {
